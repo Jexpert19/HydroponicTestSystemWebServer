@@ -1,0 +1,18 @@
+.main_switch{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color: lightgray;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.main_switch:active{	
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
